@@ -462,7 +462,7 @@ update-initramfs -t -c -k $(uname -r)
 
 echo "Copying your kernel and initrd for the livecd"
 cp /boot/vmlinuz-$(uname -r) $WORKDIR/ISOTMP/live/vmlinuz
-cp /boot/initrd.img-$(uname -r) $WORKDIR/ISOTMP/live/initrd.img
+cp /boot/initrd.img-$(uname -r) $WORKDIR/ISOTMP/live/initrd.gz
 gzip -d $WORKDIR/ISOTMP/live/initrd.gz
 lzma -9 $WORKDIR/ISOTMP/live/initrd
 mv $WORKDIR/ISOTMP/live/initrd.lzma $WORKDIR/ISOTMP/live/initrd.lz
