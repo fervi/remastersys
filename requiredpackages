@@ -1,3 +1,3 @@
 #!/bin/sh
 
-apt-get install kbd dialog hwdata live-boot live-boot-doc live-boot-initramfs-tools live-config live-config-doc live-tools memtest86+ rsync squashfs-tools user-setup uuid-runtime xorriso xz-utils
+apt-get install kbd dialog hwdata live-boot live-boot-doc live-boot-initramfs-tools live-config-systemd live-config-doc live-tools memtest86+ rsync squashfs-tools user-setup uuid-runtime xorriso xz-utils
